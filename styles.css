@@ -1,0 +1,68 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    color:hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+    
+}
+ 
+.content{
+    background-color: white;
+}
+.prep{
+    background-color:hsl(330, 100%, 98%) ;
+}
+.preptxt{
+    color: hsl(332, 51%, 32%);
+}
+h2{
+   color:hsl(14, 45%, 36%);
+   font-family: "Young Serif", serif;
+   font-style: normal;
+   font-weight: 400;
+}
+h1{
+    color:hsl(24, 5%, 18%) ;
+    font-family: "Young Serif", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.tableleft{
+    color:hsl(14, 45%, 36%);
+}
+.prep>ul{
+    list-style: none;
+}
+.prep>ul li::before{
+    content: "\2022";
+    color:hsl(332, 51%, 32%) ;
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+}
+ol{
+    list-style: none;
+}
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+ol li::before{
+    content:"1";
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+}
+    
+ul{
+    list-style: none;
+}
+ul li::before{
+    content: "\2022";
+    color:hsl(14, 45%, 36%) ;
+    font-weight: bold;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+}
